@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.timer {
+    font-size: 200px;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px;
+    color: rgb(255, 253, 246);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #dddddd;
+    color: black;
+}
